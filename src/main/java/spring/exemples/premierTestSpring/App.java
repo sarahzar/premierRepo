@@ -20,6 +20,7 @@ public class App
     	//commit marine
 
     	//test proj distant
+    	//salut
        ApplicationContext ctx=new ClassPathXmlApplicationContext("config.xml");
        serviceInterface service=(serviceInterface) ctx.getBean("service");
        System.out.println(service.calculIMC());
