@@ -14,7 +14,11 @@ public class App
 {
     public static void main( String[] args )
     {
+
     	//test ameline
+
+    	//commit marine
+
     	//test proj distant
        ApplicationContext ctx=new ClassPathXmlApplicationContext("config.xml");
        serviceInterface service=(serviceInterface) ctx.getBean("service");
