@@ -14,6 +14,8 @@ public class App
 {
     public static void main( String[] args )
     {
+    	
+    	//test proj distant
        ApplicationContext ctx=new ClassPathXmlApplicationContext("config.xml");
        serviceInterface service=(serviceInterface) ctx.getBean("service");
        System.out.println(service.calculIMC());
